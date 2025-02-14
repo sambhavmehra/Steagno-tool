@@ -45,11 +45,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+4. Run the tool:
+```bash
+python3 staegnography.py
+```
+
 ## Usage 🛠️
 
-Run the tool:
-```bash
-python3 steagnography.py
 
 ### Hide a Message 📝
 
@@ -121,6 +123,6 @@ Sambhav
 
 If you encounter any issues or have questions, please open an issue in the repository.
 
----
+
 
 Made with ❤️ by Sambhav
