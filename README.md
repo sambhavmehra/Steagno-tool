@@ -76,16 +76,6 @@ python3 stego.py
 - 32-bit message length header
 - Timestamped output files
 
-## File Structure 📁
-
-```
-stego-tool/
-├── stego.py
-├── requirements.txt
-├── README.md
-└── venv/
-```
-
 ## Dependencies 📚
 
 - Pillow (PIL): Image processing
@@ -98,23 +88,6 @@ stego-tool/
 - Works best with PNG or BMP images
 - JPEG compression may corrupt hidden messages
 - Requires read/write permissions in save directory
-
-## Troubleshooting 🔧
-
-### Permission Issues
-```bash
-chmod +x stego.py
-```
-
-### PIL Installation Issues
-```bash
-sudo apt-get install python3-dev python3-setuptools
-```
-
-### Slow NumPy Installation
-```bash
-sudo apt-get install python3-numpy
-```
 
 ## Best Practices 💡
 
@@ -132,23 +105,6 @@ The tool provides clear error messages for common issues:
 - Invalid message length
 - Permission denied
 - Decoding errors
-
-## Contributing 🤝
-
-1. Fork the repository
-2. Create your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
 
 ## License 📄
 
