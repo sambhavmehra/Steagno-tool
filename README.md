@@ -125,4 +125,4 @@ If you encounter any issues or have questions, please open an issue in the repos
 
 
 
-Made by Sambhav
+Made by Sambhav Mehra
