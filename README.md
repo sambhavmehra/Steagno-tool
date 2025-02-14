@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 4. Run the tool:
 ```bash
-python3 staegnography.py
+python3 steganography.py
 ```
 
 ## Usage 🛠️
