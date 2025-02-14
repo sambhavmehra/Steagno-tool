@@ -19,8 +19,8 @@ def print_banner():
     ╚══════╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝ 
     """)
     print(f"{Fore.MAGENTA}Created by: {Fore.GREEN}Sambhav")
-    print(f"{Fore.BLUE} Follow me on Insta :- Sambhav_7")
-    print(f"{Fore.BLUE}A Steganography Tool for Hiding Messages in Images")
+    print(f"{Fore.White} Follow me on Insta :- Sambhav_7")
+    print(f"{Fore.White}A Steganography Tool for Hiding Messages in Images")
     print(f"{Fore.CYAN}{'='*50}\n")
 
 def text_to_binary(text):
