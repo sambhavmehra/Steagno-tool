@@ -176,7 +176,7 @@ def main():
 
         elif choice == '3':
             print(f"\n{Fore.YELLOW}Thank you for using Stego Tool! Goodbye!")
-            print(f"{Fore.MAGENTA}Created by Sambhav{Style.RESET_ALL}")
+           
             break
 
         else:
