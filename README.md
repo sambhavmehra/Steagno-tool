@@ -31,7 +31,7 @@ A powerful command-line steganography tool for hiding secret messages in images 
 1. Clone the repository:
 ```bash
 git clone https://github.com/sambhavmehra/Steagno-tool.git
-cd stego-tool
+cd Steagno-tool
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -48,8 +48,7 @@ pip install -r requirements.txt
 
 Run the tool:
 ```bash
-python3 stego.py
-```
+python3 steagnography.py
 
 ### Hide a Message 📝
 
