@@ -30,7 +30,7 @@ A powerful command-line steganography tool for hiding secret messages in images 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/stego-tool.git
+git clone https://github.com/sambhavmehra/Steagno-tool.git
 cd stego-tool
 ```
 
