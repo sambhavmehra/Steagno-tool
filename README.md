@@ -1,21 +1,173 @@
-Stego Tool Overview
+# Stego Tool 🔐
 
-This is a command-line steganography tool that allows you to hide secret messages within images using the Least Significant Bit (LSB) steganography technique.
-Key Features:
+A powerful command-line steganography tool for hiding secret messages in images using LSB (Least Significant Bit) technique.
 
-Message Hiding: Embeds text messages within image files without visible changes
-Message Extraction: Recovers hidden messages from modified images
-Progress Visualization: Shows real-time progress bars during operations
-Colorful Interface: Uses colorama for an attractive CLI interface
-Error Handling: Robust error checking for file operations and message size
-Automatic Save Location: Intelligently selects appropriate save directories
-Cross-platform Support: Works on Linux and other operating systems
+```
+███████╗████████╗███████╗ ██████╗  ██████╗ 
+██╔════╝╚══██╔══╝██╔════╝██╔════╝ ██╔═══██╗
+███████╗   ██║   █████╗  ██║  ███╗██║   ██║
+╚════██║   ██║   ██╔══╝  ██║   ██║██║   ██║
+███████║   ██║   ███████╗╚██████╔╝╚██████╔╝
+╚══════╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝ 
+```
 
-Technical Details:
+## Features ✨
 
-Uses PIL (Python Imaging Library) for image processing
-Converts text to binary and modifies the least significant bits of pixel values
-Supports RGB images
-Stores message length in the first 32 bits
-Creates timestamped output files
-UTF-8 encoding for message handling
+- Hide text messages within images
+- Extract hidden messages from images
+- Real-time progress visualization
+- Colorful command-line interface
+- Automatic save location detection
+- Robust error handling
+- Cross-platform compatibility
+
+## Prerequisites 📋
+
+- Python 3.6 or higher
+- pip (Python package installer)
+
+## Installation 🚀
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/stego-tool.git
+cd stego-tool
+```
+
+2. Create and activate a virtual environment (recommended):
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Linux/Mac
+# or
+.\venv\Scripts\activate  # On Windows
+```
+
+3. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage 🛠️
+
+Run the tool:
+```bash
+python3 stego.py
+```
+
+### Hide a Message 📝
+
+1. Choose option 1 from the menu
+2. Enter the path to your source image
+3. Type your secret message
+4. The modified image will be saved automatically
+
+### Extract a Message 🔍
+
+1. Choose option 2 from the menu
+2. Enter the path to the image containing the hidden message
+3. The tool will display the extracted message
+
+## Technical Details 🔧
+
+- Uses PIL (Python Imaging Library) for image processing
+- Implements LSB steganography technique
+- Supports RGB images
+- UTF-8 encoding for message handling
+- 32-bit message length header
+- Timestamped output files
+
+## File Structure 📁
+
+```
+stego-tool/
+├── stego.py
+├── requirements.txt
+├── README.md
+└── venv/
+```
+
+## Dependencies 📚
+
+- Pillow (PIL): Image processing
+- NumPy: Array operations
+- Colorama: Terminal colors
+
+## Limitations ⚠️
+
+- Maximum message length depends on image size (1 character = 8 pixels)
+- Works best with PNG or BMP images
+- JPEG compression may corrupt hidden messages
+- Requires read/write permissions in save directory
+
+## Troubleshooting 🔧
+
+### Permission Issues
+```bash
+chmod +x stego.py
+```
+
+### PIL Installation Issues
+```bash
+sudo apt-get install python3-dev python3-setuptools
+```
+
+### Slow NumPy Installation
+```bash
+sudo apt-get install python3-numpy
+```
+
+## Best Practices 💡
+
+1. Use uncompressed image formats (PNG, BMP)
+2. Ensure sufficient image size for your message
+3. Keep backup of original images
+4. Use virtual environment for installation
+5. Check terminal permissions before running
+
+## Error Messages 🚫
+
+The tool provides clear error messages for common issues:
+- File not found
+- Insufficient image size
+- Invalid message length
+- Permission denied
+- Decoding errors
+
+## Contributing 🤝
+
+1. Fork the repository
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
+
+## License 📄
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author ✨
+
+Sambhav
+
+## Acknowledgments 🙏
+
+- Python Imaging Library (PIL) team
+- NumPy developers
+- Colorama project contributors
+
+## Support 💪
+
+If you encounter any issues or have questions, please open an issue in the repository.
+
+---
+
+Made with ❤️ by Sambhav
