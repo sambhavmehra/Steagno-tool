@@ -1,4 +1,4 @@
-#Stego Tool Overview
+Stego Tool Overview
 This is a command-line steganography tool that allows you to hide secret messages within images using the Least Significant Bit (LSB) steganography technique.
 Key Features:
 
