@@ -37,7 +37,8 @@ cd Steagno-tool
 2. Create and activate a virtual environment (recommended):
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On Linux/Mac
+source venv/bin/activate  
+ ```
 
 3. Install required packages:
 ```bash
